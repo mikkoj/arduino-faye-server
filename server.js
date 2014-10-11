@@ -9,3 +9,4 @@ var bayeux = new faye.NodeAdapter({
 
 bayeux.attach(server);
 server.listen(8000);
+
