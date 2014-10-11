@@ -13,6 +13,7 @@ var server = http.createServer(function(request, response) {
 });
 
 bayeux.attach(server);
-server.listen(8000);
+var port = process.env.PORT || 8080;
+server.listen(port);
 
-console.log('Started faye-server.');
+console.log('Started faye-server at port: ' + port);
