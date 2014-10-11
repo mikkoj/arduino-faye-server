@@ -13,6 +13,6 @@ var server = http.createServer(function(request, response) {
 });
 
 bayeux.attach(server);
-server.listen(80);
+server.listen(8000);
 
 console.log('Started faye-server.');
