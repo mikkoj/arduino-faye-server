@@ -1,5 +1,5 @@
 {
-  "name": "nortal-faye-server",
+  "name": "arduino-faye-server",
   "version": "1.0.0",
   "devDependencies": {
     "faye": "^1.0.3"
