@@ -1,5 +1,5 @@
 Arduino Yún sensors - faye pub/sub in the cloud - browser-client
-===
+---
 
 This repository contains code for running a simple [Faye](http://faye.jcoglan.com/)-server in the cloud.
 
